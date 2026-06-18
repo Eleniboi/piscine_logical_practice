@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 	"unicode"
 )
@@ -29,10 +28,10 @@ func CamelToSnakeCase(s string) string {
 	return result.String()
 }
 
-func main() {
+// func main() {
 
-	fmt.Println(CamelToSnakeCase("lowerCamelCase"))
-}
+// 	fmt.Println(CamelToSnakeCase("lowerCamelCase"))
+// }
 
 // func CamelToSnakeCase(s string) string {
 // 	if s == ""{
