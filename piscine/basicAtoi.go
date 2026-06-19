@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func BasicAtoi(s string) int {
 
 	result := 0
@@ -32,14 +30,14 @@ func BasicAtoi(s string) int {
 	return result
 }
 
-func main() {
+// func main() {
 
-	// fmt.Println(BasicAtoi("Hello World!"))
-	// fmt.Println(BasicAtoi("123 45"))
-	// fmt.Println(BasicAtoi("0000000012395"))
-	// fmt.Println(BasicAtoi("0001000"))
-	fmt.Println(BasicAtoi("+1234"))
-	// fmt.Println(BasicAtoi("-1234"))
-	// fmt.Println(BasicAtoi("++1234"))
-	// fmt.Println(BasicAtoi("--1234"))
-}
+// 	// fmt.Println(BasicAtoi("Hello World!"))
+// 	// fmt.Println(BasicAtoi("123 45"))
+// 	// fmt.Println(BasicAtoi("0000000012395"))
+// 	// fmt.Println(BasicAtoi("0001000"))
+// 	fmt.Println(BasicAtoi("+1234"))
+// 	// fmt.Println(BasicAtoi("-1234"))
+// 	// fmt.Println(BasicAtoi("++1234"))
+// 	// fmt.Println(BasicAtoi("--1234"))
+// }
