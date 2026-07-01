@@ -48,10 +48,13 @@ func sliceRev(s []string) string {
 // func main() {
 
 // 	// PrintStr("lsssl")
+
 // 	// a := 3
 // 	// b := 6
 // 	// Swap(&a, &b)
+
 // 	// fmt.Println(a)
 // 	// fmt.Println(b)
+
 // 	fmt.Println(sliceRev([]string{"fine","you are","samuel", "bro",}))
 // }
